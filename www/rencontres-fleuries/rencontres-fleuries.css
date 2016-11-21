@@ -1,0 +1,16 @@
+.vignette3-front{
+	text-align: center;
+	padding: 0;
+	padding-top: 125px;
+}
+.vignette3-titre {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	font-size: 2em;
+	color: white;
+	letter-spacing: 0.07em;
+	padding-bottom: 10px;
+	text-decoration: uppercase;
+	font-family: 'bebas_neuebook', 'Open Sans', sans-serif;	
+}

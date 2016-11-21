@@ -1,0 +1,219 @@
+#project_left {
+	float: left;
+}
+#project_left, #project-img, #img_presentation, #project_desc, #project_music {
+	width: 550px;
+}
+#project_desc {
+	/*border: 1px solid #8f7947;*/
+	margin-bottom: 30px;
+	/*text-align: left;*/
+	text-align: justify;
+}
+#project_next_concerts {
+	float: right;
+	width: 350px;
+	background-color: #FCFCFC;
+	text-align: center;
+}
+#project_next_concerts h2 {
+	margin-left: 24px;
+	margin-top: 24px;
+	text-align: left;
+	font-family: 'bebas_neuebook', 'Open Sans', sans-serif; 
+	letter-spacing: 0.1em;
+	font-size: 1.7em;
+	color: #8f7947;
+}
+#project_next_concerts h2 strong{
+	font-family: 'bebas_neuebook', 'Open Sans', sans-serif; 
+	font-weight: 700;
+}
+#project-img {
+	margin-bottom: 18px;
+}
+#project_music {
+	height: 120px;
+}
+.disc-cover {
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+.disc-extracts {
+	float: left;		
+	height: 120px;
+	width: 428px;
+	background-color: #FCFCFC;
+}
+.album-title {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.nom-titre {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+.jp-audio {
+	text-align: center;
+}
+.jp-controls {
+	width: 88px;
+}
+.jp-progress {
+	width: 40%;
+}
+.jp-controls, .jp-progress, .jp-time-holder, .jp-current-time, .slash-separator, .jp-duration {
+	display:inline-block;
+	vertical-align:middle;
+}
+.jp-progress, .jp-time-holder {
+	margin-left: 12px;
+}
+.jp-current-time, .slash-separator, .jp-duration {
+	font-size: 0.8em;
+	vertical-align: top;
+}
+.jp-play {
+  background: url("	./controls/play.png") no-repeat; }
+
+.jp-play:focus {
+  background: url("./controls/play.png") no-repeat; }
+
+.jp-play:hover {
+  background: url("./controls/play-plein.png") no-repeat; } 
+
+.jp-state-playing .jp-play {
+  background: url("./controls/pause.png") no-repeat; }
+
+.jp-state-playing .jp-play:focus {
+  background: url("./controls/pause") no-repeat; }
+
+.jp-state-playing .jp-play:hover {
+  background: url("./controls/pause-plein") no-repeat; }
+
+.jp-play, .jp-state-playing .jp-play, .jp-previous, .jp-next {
+  width: 28px;
+  height: 28px;
+  margin-top: 0px; }
+
+.jp-previous {
+  background: url("./controls/precedent.png") no-repeat; 
+  margin-right: 2px;}
+
+.jp-previous:focus {
+  background: url("./controls/precedent.png") no-repeat; }
+
+.jp-previous:hover {
+  background: url("./controls/precedent-plein.png") no-repeat; }
+
+.jp-next {
+  background: url("./controls/suivant.png") no-repeat; 
+  margin-left: 2px; }
+
+.jp-next:focus {
+  background: url("./controls/suivant.png") no-repeat; }
+
+.jp-next:hover {
+  background: url("./controls/suivant-plein.png") no-repeat; }
+
+
+.next-concert {
+	margin: auto;
+	margin-top: 15px;
+	width: 302px;
+}
+.next-concert-right {
+	float: left;
+	font-family: 'bebas_neuebook', 'Open Sans', sans-serif;
+	height: 74px;
+}
+.dates-concerts-gauche{
+	float: left;
+}
+.dates-concerts-gauche{
+	width: 70px;
+	height: 74px;
+	text-align: center;
+	vertical-align: middle;
+}
+.dates-concerts-gauche h3{
+	display: block;
+	font-weight: 600;
+	font-size: 2.8em;
+	letter-spacing: 0.1em;
+	margin-top: 3px;
+}
+.dates-concerts-gauche .dates-concerts-mois-annee{
+	font-weight: 400;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin-left: 2px;
+	margin-top: -5px;
+}
+.dates-concerts-gauche, .dates-concerts-gauche h3, .dates-concerts-gauche .dates-concerts-mois-annee{
+	font-family: 'bebas_neuebook', 'Open Sans', sans-serif;
+	color: #f4f4f4;
+	background-color: #8f7947;
+}
+.date-concerts-mois-annee-ajout{
+	font-family: 'bebas_neuebook', 'Open Sans', sans-serif;
+	color: #f4f4f4;	
+	background-color: #8f7947;	
+	font-weight: 400;
+	letter-spacing: 0.15em;
+}
+.next-concert-title, .next-concert-place{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	text-align: left;
+	color: #8f7947;
+	padding-left: 10px;	
+}
+.next-concert-title {
+	font-size: 0.9em;
+	/*padding-bottom: 10px;*/
+	font-weight: 600;
+	
+}
+
+#project_music {
+	margin-bottom: 30px;
+}
+
+iframe {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+	.jp-progress {
+		display: none;
+	}
+	.jp-time-holder {
+		margin-left: 5px;
+		margin-top: 6px;
+	}
+}
+
+@media (max-width: 949.999999px) {
+	#project_left, #project-img, #img_presentation, #project_desc, #project_music, .next-concert {
+		width: 100%;
+	}
+	#project_next_concerts {
+		width: 100%;
+	}
+	.next-concert {
+		margin-left: 24px;
+		margin-top: 15px;
+	}	
+	.jp-progress, .jp-time-holder {
+		/*margin-left: 10px;*/
+	}
+}

@@ -1,0 +1,9 @@
+.nom-bandeau{
+	font-size: 1.7em;
+}
+.lien-cliquable:hover, .lien-cliquable:focus{
+	cursor: pointer;
+} 
+.container-bandeau {
+	margin-bottom: 24px;
+}

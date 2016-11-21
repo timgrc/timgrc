@@ -1,0 +1,15 @@
+.biographie-pres {
+	width: 100%; 
+	text-align: justify; 
+}
+.img-biographie {
+	margin-bottom: 24px;
+}
+.img-biographie img {
+	width: 100%;
+}
+@media (max-width: 640px) {
+	.sous-grostitre {
+		text-align: center;
+	}
+}

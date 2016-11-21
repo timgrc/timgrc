@@ -1,0 +1,31 @@
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+	</div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--<ul class="nav navbar-nav navbar-right">-->
+      <ul class="nav navbar-nav">
+        <li><a href="collaborations.php" class="page-scroll">Collaborations</a></li>
+        <li><a href="projets-collectifs.php" class="page-scroll">Projets Collectifs</a></li>
+        <li><a href="projets-personnels.php" class="page-scroll">Projets Personnels</a></li>
+		<li><a href="l-air-du-moment" class="page-scroll">L'Air du Moment</a></li>
+        <li><a href="discographie.php" class="page-scroll">Discographie</a></li>
+        <li><a href="a-propos.php" class="page-scroll">À Propos</a></li>
+		<li><a href="memoires.php" class="page-scroll">Mémoires</a></li>
+		<li><a href="rencontres-fleuries.php" class="page-scroll">Rencontres Fleuries</a></li>
+        <?php
+			if ($adminadmin) { ?>
+		<li><a href="pages/logout.php" class="page-scroll">Déconnexion</a></li>
+		<?php } ?>
+	  </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>

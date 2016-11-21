@@ -1,0 +1,36 @@
+.nom-titre, .titre-album{
+  font-family: 'bebas_neuebook', 'Open Sans', sans-serif; 
+}
+.nom-titre{
+  font-size: 18px;
+}
+.vignette3-hover-haut h2{
+  font-size: 25px;
+  letter-spacing: 1.1px;
+  color: #8f7947;
+}
+.sous-titre-album{
+  margin-top: 10px;
+}
+.vignette3-hover-haut{
+  background-color: #333231;
+  color: #f4f4f4;
+  font-size: 12px;
+  padding: 15px;
+  overflow: auto;
+}
+.vignette3-hover-bas{
+  border-top: 1px solid black;
+  background-color: #8f7947;
+  text-align: center;
+  color: #f4f4f4;
+}
+.cart {
+	margin-top: 0px;
+	font-size: 1.6em;
+	text-align: right;
+	padding-right: 8px;
+}
+.cart i:hover {
+	color: #ceae67;
+}

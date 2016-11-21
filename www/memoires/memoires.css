@@ -1,0 +1,38 @@
+.vignette-resp{
+	background-size: 100% 100%;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	cursor: pointer;
+}
+.vignette4-front{
+	text-align: center;
+	padding: 0;
+}
+.vignette4-titre {
+	text-align: center;
+	font-size: 2em;
+	color: #FCFCFC;
+	letter-spacing: 0.07em;
+	text-decoration: uppercase;
+	font-family: 'bebas_neuebook', 'Open Sans', sans-serif;	
+}
+.vignette-hover {
+	opacity: 0;	
+}
+.vignette-hover:hover{
+	opacity: 1;
+	background-color: rgb(143, 121, 71);
+	background-color: rgba(143, 121, 71, 0.6);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C08f7947,endColorstr=#C08f7947);
+}
+@media (min-width: 640.000001px) {
+	.titre-normal-mode {
+		display: none;
+	}
+}
+
+@media (max-width: 950px) {
+	.titre-normal-mode, .vignette4-titre {
+		font-size: 1.5em;
+	}
+}

@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/home/sylvaine/www/espace-pro/.htpasswd"
+Require valid-user

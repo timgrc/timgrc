@@ -1,0 +1,6 @@
+body {
+	background: url('../img/homepage_photo.jpg'); 
+	margin: auto; 
+	background-position:center center;
+	background-size: cover;	
+}

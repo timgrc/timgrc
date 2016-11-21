@@ -1,0 +1,116 @@
+.jp-controls {
+    margin: auto;
+    margin-top: 3px;
+    width: 88px;
+}
+
+.bouton-controle {
+  float: left;
+  text-decoration: none;
+  cursor: pointer; }
+
+.jp-play {
+  background: url("../img/play.png") no-repeat; 
+  background-size: contain;
+}
+
+.jp-play:focus {
+  background: url("../img/play-plein.png") no-repeat; 
+  background-size: contain;
+}
+
+.jp-state-playing .jp-play {
+  background: url("../img/pause.png") no-repeat; 
+  background-size: contain;
+}
+
+.jp-state-playing .jp-play:focus {
+  background: url("../img/pause-plein") no-repeat; 
+  background-size: contain;
+  }
+
+.jp-play, .jp-state-playing .jp-play, .jp-previous, .jp-next {
+  width: 28px;
+  height: 28px;
+  margin-top: 3px; }
+
+.jp-previous {
+  background: url("../img/precedent.png") no-repeat; 
+  margin-right: 2px;
+}
+
+.jp-previous:focus {
+  background: url("../img/precedent-plein.png") no-repeat; }
+
+.jp-next {
+  background: url("../img/suivant.png") no-repeat; 
+  margin-left: 2px;
+}
+
+.jp-next:focus {
+  background: url("../img/suivant-plein.png") no-repeat; }
+
+.jp-playlist {
+  width: 100%;
+  }
+
+.jp-playlist ol {
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  /*padding: 0 20px;*/
+}
+
+.jp-playlist li {
+  padding: 2px 0 4px 0px;}
+
+.jp-playlist li div {
+  display: inline; }
+
+/* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
+div.jp-type-playlist div.jp-playlist li:last-child {
+  padding: 2px 0 0px 0px;
+  border-bottom: none; }
+
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+    /*padding-left: 5px; */
+}
+
+div.jp-type-playlist div.jp-playlist .jp-playlist-current {
+  color: #8f7947; }
+
+.jp-progress {
+  overflow: hidden;
+  background-color: #ddd; }
+
+.jp-audio .jp-progress {
+  /*position: absolute;*/
+  /*top: 32px;*/
+  height: 6px; }
+
+.jp-audio .jp-type-single .jp-progress {
+  left: 110px;
+  width: 186px; }
+
+.jp-audio .jp-type-playlist .jp-progress {
+  /*left: 166px;*/
+  width: 130px; }
+
+.jp-seek-bar {
+  /*background: url("../img/jplayer.blue.monday.jpg") 0 -202px repeat-x;*/
+  background-color: #CDCDCD; JUSTE LE CODE COULEUR
+  width: 0px;
+  height: 100%;
+  cursor: pointer; }
+
+.jp-play-bar {
+  /*background: url("../img/jplayer.blue.monday.jpg") 0 -218px repeat-x;*/
+  background-color: #8f7947;
+  width: 0px;
+  height: 100%; }
+
+/* The seeking class is added/removed inside jPlayer */
+.jp-seeking-bg {
+  background: url("../img/jplayer.blue.monday.seeking.gif"); }

@@ -1,0 +1,37 @@
+.invisible-mode{
+  display:none;
+}
+#myBigNicPanel{
+  position: absolute;
+  z-index:100;
+}
+.modifiable {
+  border: 1px dotted #8f7947;
+}
+.selection-modif{
+  border: 1px solid #1B019B;
+}
+.non-enregistre{
+  border: 1px solid #8f7947 !important;
+}
+.padding5-modif{
+  padding: 5px;
+}
+#myNicPanel{
+  float: left;
+}
+#bouton-enregistrer{
+  float: left;
+  height: 26px;
+  text-align: center;
+  border: 1px solid #1c5625;
+  background-color: #287233;
+  color: white;
+}
+#bouton-enregistrer:hover,#bouton-enregistrer:focus{
+  cursor: pointer;
+  background-color: #43c657;
+}
+.bouton-pas-enregistre{
+  background-color: #8f7947 !important;
+}
